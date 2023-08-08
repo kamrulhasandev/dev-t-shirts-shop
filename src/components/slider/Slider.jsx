@@ -52,19 +52,19 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="py-20 px-5 md:px-0">
+    <div className="py-20 px-5 md:px-0 bg-slate-100">
       <div className="max-w-screen-xl mx-auto">
         <div className="md:flex items-center gap-10 justify-between">
           {/* Text Content  */}
           <div className="md:w-1/2">
-            <p className="text-[#FF6666]">{data[currentSlide].heading}</p>
-            <h3 className="text-5xl font-bold py-5">{data[currentSlide].title}</h3>
+            <p className="text-[#38BDF8]">{data[currentSlide].heading}</p>
+            <h3 className="text-5xl font-bold py-10">{data[currentSlide].title}</h3>
             <p className="text-[#6E7092]">{data[currentSlide].description}</p>
           </div>
           {/* Image Content  */}
           <div className="md:w-1/2 mt-10 md:mt-0">
             <div className="flex justify-center md:justify-end relative">
-                <div className="h-[500px] w-[400px] bg-[#38BDF8] blur-lg rounded-full absolute"></div>
+                <div className="h-[450px] w-[400px] bg-[#38BDF8] blur-lg rounded-full absolute"></div>
               <Image
                 src={data[currentSlide].image}
                 alt="img"

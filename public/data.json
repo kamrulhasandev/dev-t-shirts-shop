@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "VS Code Unisex T-Shirt",
+        "image": "https://i.ibb.co/0jTQcMY/vscode.jpg",
+        "price": 25,
+        "description": "Express your love for Visual Studio Code with this comfortable unisex T-Shirt. The iconic VS Code logo on the front makes it a perfect choice for developers and programmers.",
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "name": "React Native Unisex T-Shirt",
+        "image": "https://i.ibb.co/10P4Cy1/react-native.jpg",
+        "price": 22,
+        "description": "Showcase your passion for React Native with this trendy unisex T-Shirt. It features a sleek design and is made from high-quality materials, ideal for building cross-platform mobile apps.",
+        "rating": 4.6
+    },
+    {
+        "id": 3,
+        "name": "React Unisex T-Shirt",
+        "image": "https://i.ibb.co/Wn4Pzy9/react.jpg",
+        "price": 21,
+        "description": "Embrace your love for React with this stylish unisex T-Shirt. Whether you're a frontend developer or a React enthusiast, this T-Shirt is a must-have in your collection.",
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "name": "Python Unisex T-Shirt",
+        "image": "https://i.ibb.co/XsY2KJQ/Python.jpg",
+        "price": 18,
+        "description": "Wear your passion for Python proudly with this classic unisex T-Shirt. Python enthusiasts and developers will appreciate the simple yet stylish design.",
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Node JS Unisex T-Shirt",
+        "image": "https://i.ibb.co/CtX4wpw/nodejs.jpg",
+        "price": 24,
+        "description": "Show your love for Node.js with this eye-catching unisex T-Shirt. It's perfect for backend developers and anyone who enjoys working with JavaScript on the server.",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Microsoft Unisex T-Shirt",
+        "image": "https://i.ibb.co/Yjz8LBB/Microsoft.jpg",
+        "price": 19,
+        "description": "Celebrate your passion for Microsoft technologies with this comfortable unisex T-Shirt. It's a great addition to your wardrobe as a tech enthusiast.",
+        "rating": 4.4
+    },
+    {
+        "id": 7,
+        "name": "Linux Unisex T-Shirt",
+        "image": "https://i.ibb.co/1Q5zDF8/Linux.jpg",
+        "price": 20,
+        "description": "Support open-source and showcase your love for Linux with this classic unisex T-Shirt. Linux users and developers will appreciate this stylish design.",
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "name": "Java Unisex T-Shirt",
+        "image": "https://i.ibb.co/Kb4GdDn/java.jpg",
+        "price": 23,
+        "description": "For all the Java enthusiasts out there, this trendy unisex T-Shirt is a must-have. It's a great way to show your appreciation for the Java programming language.",
+        "rating": 4.6
+    },
+    {
+        "id": 9,
+        "name": "In Case On Fire Unisex T-Shirt",
+        "image": "https://i.ibb.co/3cvx5FF/In-Case-on-Fire.jpg",
+        "price": 26,
+        "description": "Add humor to your developer wardrobe with this quirky unisex T-Shirt. The 'In Case On Fire' message will resonate with programmers who've experienced intense debugging sessions.",
+        "rating": 4.4
+    },
+    {
+        "id": 10,
+        "name": "Google Cloud Unisex T-Shirt",
+        "image": "https://i.ibb.co/sJJjNB5/google-cloud.jpg",
+        "price": 28,
+        "description": "Show your love for Google Cloud and its powerful cloud computing services with this stylish unisex T-Shirt. A great choice for cloud technology enthusiasts.",
+        "rating": 4.8
+    },
+    {
+        "id": 11,
+        "name": "Google Unisex T-Shirt",
+        "image": "https://i.ibb.co/VYKT30Z/google.jpg",
+        "price": 21,
+        "description": "Express your appreciation for Google and its innovations with this comfortable unisex T-Shirt. Perfect for tech enthusiasts and fans of the tech giant.",
+        "rating": 4.5
+    },
+    {
+        "id": 12,
+        "name": "GitHub Black Unisex T-Shirt",
+        "image": "https://i.ibb.co/fXjz7Ps/git-hub.jpg",
+        "price": 19,
+        "description": "Wear this sleek black unisex T-Shirt to showcase your love for GitHub. Whether you're a developer or a Git user, this T-Shirt is a great addition to your collection.",
+        "rating": 4.5
+    },
+    {
+        "id": 13,
+        "name": "GitHub Green Unisex T-Shirt",
+        "image": "https://i.ibb.co/yhwMwH4/github.jpg",
+        "price": 20,
+        "description": "Represent your passion for GitHub with this cool green unisex T-Shirt. GitHub users and open-source enthusiasts will appreciate the design.",
+        "rating": 4.5
+    },
+    {
+        "id": 14,
+        "name": "Flutter Unisex T-Shirt",
+        "image": "https://i.ibb.co/ZB3zCz8/flutter.jpg",
+        "price": 23,
+        "description": "Show off your Flutter love with this trendy unisex T-Shirt. It's perfect for mobile app developers who enjoy building beautiful UIs with Flutter.",
+        "rating": 4.6
+    },
+    {
+        "id": 15,
+        "name": "Figma Unisex T-Shirt",
+        "image": "https://i.ibb.co/3BK0RPZ/figma.jpg",
+        "price": 22,
+        "description": "Celebrate your design skills with this comfortable unisex T-Shirt. Figma users and designers will appreciate the nod to their favorite design tool.",
+        "rating": 4.5
+    },
+    {
+        "id": 16,
+        "name": "Eat Sleep Code Unisex T-Shirt",
+        "image": "https://i.ibb.co/GMwchsh/Eat-Sleep-Code-Repeat.jpg",
+        "price": 18,
+        "description": "A classic 'Eat Sleep Code' unisex T-Shirt that every programmer can relate to. It's a fun way to show your dedication to coding.",
+        "rating": 4.5
+    },
+    {
+        "id": 17,
+        "name": "Docker Unisex T-Shirt",
+        "image": "https://i.ibb.co/M8G1sVR/docker.jpg",
+        "price": 21,
+        "description": "Docker enthusiasts will love this stylish unisex T-Shirt. Wear it proudly to showcase your love for containerization technology.",
+        "rating": 4.5
+    },
+    {
+        "id": 18,
+        "name": "Code Blooded Unisex T-Shirt",
+        "image": "https://i.ibb.co/pRCxMBw/code-blooded.jpg",
+        "price": 25,
+        "description": "Are you code-blooded? This edgy unisex T-Shirt is perfect for developers who have a passion for coding in their veins.",
+        "rating": 4.5
+    },
+    {
+        "id": 19,
+        "name": "Dino Game Unisex T-Shirt",
+        "image": "https://i.ibb.co/DDRBw6y/dino-game.jpg",
+        "price": 19,
+        "description": "Relive the nostalgia of the Dino Game from Google Chrome with this fun unisex T-Shirt. It's a great choice for gaming and coding enthusiasts.",
+        "rating": 4.5
+    },
+    {
+        "id": 20,
+        "name": "Developer Unisex T-Shirt",
+        "image": "https://i.ibb.co/TqfXWTj/developer.jpg",
+        "price": 20,
+        "description": "Keep it simple and stylish with this 'Developer' unisex T-Shirt. A must-have for all developers who take pride in their profession.",
+        "rating": 4.5
+    },
+    {
+        "id": 21,
+        "name": "Declare Variables Unisex T-Shirt",
+        "image": "https://i.ibb.co/VtGmzBG/Declare-Variables.jpg",
+        "price": 22,
+        "description": "This clever unisex T-Shirt humorously reminds everyone to 'Declare Variables, Not War.' A great gift for programmers who appreciate the importance of clean code.",
+        "rating": 4.5
+    },
+    {
+        "id": 22,
+        "name": "Code Coffee Repeat Unisex T-Shirt",
+        "image": "https://i.ibb.co/XYcqsFv/code-coffee-repeat.jpg",
+        "price": 18,
+        "description": "For all the coding coffee lovers out there, this T-Shirt is a perfect fit. Embrace your passion for coding and coffee with this fun design.",
+        "rating": 4.5
+    },
+    {
+        "id": 23,
+        "name": "Breaking Code Unisex T-Shirt",
+        "image": "https://i.ibb.co/rpTrMgG/Breaking-Code.jpg",
+        "price": 24,
+        "description": "Inspired by the popular TV show, this 'Breaking Code' unisex T-Shirt is perfect for developers with a passion for coding and thrilling adventures.",
+        "rating": 4.5
+    },
+    {
+        "id": 24,
+        "name": "Angular Unisex T-Shirt",
+        "image": "https://i.ibb.co/qgYrbC5/angular.jpg",
+        "price": 23,
+        "description": "Angular developers will love this sleek unisex T-Shirt. Show off your Angular expertise with this minimalist design.",
+        "rating": 4.5
+    },
+    {
+        "id": 25,
+        "name": "AWS Unisex T-Shirt",
+        "image": "https://i.ibb.co/R3Smxgq/AWS.jpg",
+        "price": 26,
+        "description": "Represent your passion for Amazon Web Services with this stylish unisex T-Shirt. Perfect for cloud enthusiasts and AWS users.",
+        "rating": 4.5
+    }
+]
