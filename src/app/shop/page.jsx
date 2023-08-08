@@ -1,9 +1,8 @@
 "use client";
 import ProductCart from "@/components/ProductCart";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-const AllProduct = () => {
+const ShopPage = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     async function fetchData() {
@@ -21,24 +20,19 @@ const AllProduct = () => {
   return (
     <div className="pb-20 px-5 md:px-0">
       <div className="max-w-screen-xl mx-auto">
-        <div className="text-center pb-3">
+        <div className="text-center">
           <h4 className="text-xl">Collection of This Month</h4>
           <p className="text-[#6E7092]">Choose your t-shirt as you like</p>
         </div>
 
         <div className="grid md:grid-cols-4 items-center justify-center gap-10">
-          {products.slice(0,8).map((item) => (
+          {products.map((item) => (
             <ProductCart key={item.id} item={item} />
           ))}
-        </div>
-        <div className="flex justify-center items-center mt-5">
-          <Link href={'/shop'}>
-            <button className="hover:bg-[#38BDF8] hover:text-white text-[#38BDF8] py-1 px-2 rounded border-2 border-[#38BDF8]">See All Products</button>
-          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default AllProduct;
+export default ShopPage;
