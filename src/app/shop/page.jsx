@@ -5,7 +5,8 @@ import React, { useEffect, useState } from "react";
 const ShopPage = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const [sortBy, setSortBy] = useState("Low to High");
+  const [sortedProducts, setSortedProducts] = useState([]);
+  const [sortBy, setSortBy] = useState("Default");
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
@@ -23,23 +24,25 @@ const ShopPage = () => {
   }, []);
 
   useEffect(() => {
-    const sortedProducts = [...filteredProducts];
-    sortedProducts.sort((a, b) => {
-      if (sortBy === "Low to High") {
-        return a.price - b.price;
-      } else {
-        return b.price - a.price;
-      }
-    });
-    setFilteredProducts(sortedProducts);
-  }, [sortBy, filteredProducts]);
-
-  useEffect(() => {
     const searchResults = products.filter(item =>
       item.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredProducts(searchResults);
   }, [searchTerm, products]);
+
+  useEffect(() => {
+    const sortedProductsCopy = [...filteredProducts];
+    sortedProductsCopy.sort((a, b) => {
+      if (sortBy === "Low to High") {
+        return a.price - b.price;
+      } else if (sortBy === "High to Low"){
+        return b.price - a.price;
+      }else{
+        return ;
+      }
+    });
+    setFilteredProducts(sortedProductsCopy);
+  }, [sortBy, products]);
 
   return (
     <div className="py-20 px-5 md:px-0">
@@ -70,6 +73,7 @@ const ShopPage = () => {
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
             >
+              <option value="Default">Default</option>
               <option value="Low to High">Low to High</option>
               <option value="High to Low">High to Low</option>
             </select>

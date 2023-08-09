@@ -45,10 +45,10 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex gap-5 text-xl">
-          <Link href={"/"}>
+          <Link href="/">
             <FaShoppingCart />
           </Link>
-          <Link href={"/"}>
+          <Link href="/">
             <FaUser />
           </Link>
         </div>
