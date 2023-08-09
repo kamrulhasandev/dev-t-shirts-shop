@@ -9,14 +9,14 @@ const Payment = () => {
         src="https://i.ibb.co/WkfFwjb/PayPal.png
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
         src="https://i.ibb.co/W0qTbYx/Amazon-Pay.png
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
@@ -24,14 +24,14 @@ const Payment = () => {
 
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
         src="https://i.ibb.co/qsSTVLj/Facebook-Pay.png
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
@@ -39,21 +39,21 @@ const Payment = () => {
 
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
         src="https://i.ibb.co/tpxQnq1/Stripe.png
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
       <Image
         src="https://i.ibb.co/NtpGDCk/ApplePay.png
 "
         alt="paypal"
-        width={200}
+        width={120}
         height={120}
       />
     </Marquee>
